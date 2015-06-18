@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Chkra</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />  
+	<link href="css/style.css" rel="stylesheet"/>   
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+</head> 
+<body>
+
+<div id="wrapper">
+
+	<div class="left">
+		<h2 class="menulink hamburger"><a href="./">Menu</a></h2>
+		<section>
+			<img src="images/chkra_logo.png" alt="Logo" />
+			<h3 style="color: white;">"A Social network for social change"</h3>
+			<h4 style="color: white; font-style: italic;">We are people with purpose...</h4>
+			<p style="color: #f7f7f7;">A product of <a href="http://www.peacers.org">Peacers Ltd.</a></p>
+			<p class="footer-text">&copy; Chkra &nbsp; &copy; Peacers</p>
+		</section>
+	</div>
+	
+	<div class="right">
+	
+		<section> 
+			
+			<div class="wide"> 
+				
+				<div class="title align-center">
+					
+					<h1 data-next="Provide More Info">Request Invite</h1>
+					<p data-next="We would like to  know more about you, this will help us screen your profile.">Become one of our early adopters, request invitation and try out Chkra...</p>	
+				
+				</div> 
+			
+				<div class="form-box subscribe">
+				
+					<div id="success">
+					    <div class="green align-center">
+					        <p>Your message was sent successfully!</p>
+					    </div>
+					</div>
+
+					<div id="error">
+					    <div>
+					        <p>Something went wrong. Please refresh and try again.</p>
+					    </div>
+					</div>
+
+					<form id="subscribe" name="subscribe" method="post" novalidate="novalidate" action="http://formspree.io/abhinav.chauhan@chkra.co">
+									
+						<div class="form-row"> 
+							<input type="text" name="subscribe_email" id="subscribe_email" size="30" value="" required="" class="text login_input" placeholder="Email address"> 
+							<input id="submit" type="submit" name="submit" value="Request" class="btn" data-loading-text="Loading..." />
+							<div class="clearfix"></div>
+						</div> 
+					</form>
+
+				</div>
+
+				<div class="form-box" id="subscribe-next" style="display: none;" class="subscribe-next">
+					
+					<form name="subscribe-next" method="post" novalidate="novalidate" class="align-center" action="http://formspree.io/abhinav.chauhan@chkra.co">
+						
+						<h2>Provide More Info</h2>
+						<p>We would like to know more about you, this will help us screen your profile..</p>
+
+						<div class="form-row">	 
+							<input type="text" name="subscribe_name" id="subscribe_name" size="30" value="" required="" class="text login_input" placeholder="Your name">
+					    </div>
+						<div class="form-row">									     
+							<select name="subscribe_acctType" id="subscribe_acctType" class="text login_input">
+								<option value="">Select Account Type</option>
+								<option value="1">Individual</option>
+								<option value="2">Group</option>
+								<option value="3">NGO</option>
+								<option value="4">Company</option>
+								<option value="5">Social Enterprise</option>
+							</select>
+					    </div>  
+						<div class="form-row">	 
+							<input type="text" name="subscribe_location" id="subscribe_location" size="30" value="" required="" class="text login_input" placeholder="Location">
+					    </div>
+						<div class="form-row">
+					        <textarea name="message" id="message" required="" class="text login_input align-center" placeholder="Why do you want to join Chkra?"></textarea>
+					    </div>  
+						<div class="form-row">
+						    <input id="submit" type="submit" name="submit" value="Submit" class="btn" />
+						</div>
+					</form>
+					</form> 	
+					
+					<div class="clearfix"></div>	
+					
+				</div>
+				
+			</div>
+					
+		</section>
+	
+	</div>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/scripts.js"></script>  
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/contact.js"></script>
+		        		
+</body>
+</html>
